@@ -1,0 +1,9 @@
+header {
+
+  /* empurra todos elementos para direita */
+  /* O logo (primeiro <a>) fica colado à esquerda. */
+  /* Os outros links vão para a direita. */
+  & a:first-child {
+    margin-right: auto;
+  }
+}
